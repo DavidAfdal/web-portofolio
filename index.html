@@ -29,6 +29,8 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/virtual.css">
   
   <link rel="stylesheet" type="text/css" href="./assets/css/minibar.virtual.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body class="theme-red">
   
@@ -112,14 +114,23 @@
             <div class="caption wow fadeInRight">
               <h2 class="fg-dark">David Afdal Kaizar Mutahadi</h2>
               <p class="fg-theme fw-medium">Software Engineer</p>
-              <p>Hi, I'm David Afdal Kaizar Mutahadi. A Fresh Graduate Student at Gunadarma Univeristy. Majored in Computer Science. Started programming since i was getting into college and I joined bootcamp at college. Learned about Java Programming, Object Oriented Programming, and so on.</p>
-              <!-- <ul class="theme-list">
-                <li class="fg-dark"><b>From:</b> Texas, US</li>
-                <li class="fg-dark"><b>Lives In:</b> Texas, US</li>
-                <li class="fg-dark"><b>Age:</b> 25</li>
-                <li class="fg-dark"><b>Gender:</b> Male</li>
-              </ul> -->
-              <button class="btn btn-theme btn-rounded">Download CV</button>
+              <p style="text-align:justify">Hi, I'm David Afdal Kaizar Mutahadi. A Fresh Graduate Student at Gunadarma Univeristy. Majored in Information Systems. I have a keen interest and growing expertise in software engineering, particularly in web development. My academic journey has equipped me with a solid foundation in information systems, and I am passionate about applying my knowledge to create efficient and innovative web solutions. As I continue to learn and grow in this field, I am eager to contribute my skills to dynamic projects and collaborate with like-minded professionals.</p>
+              <div class="d-flex mb-2">
+                <a href="https://github.com/DavidAfdal">
+                  <i class='bx bxl-github' style="font-size: 40px; margin-right: 8px;"></i>
+                </a>
+                <a href="https://www.instagram.com/davidafd_">
+                  <i class='bx bxl-linkedin-square' style="font-size: 40px; margin-right: 8px;" ></i>
+                </a>
+                <a href="#">
+                  <i class='bx bxl-instagram' style="font-size: 40px; margin-right: 8px;" ></i>
+                </a>
+              </div>
+              <button class="btn btn-theme btn-rounded">
+                <a href="./assets/img/bg_image_1.jpg" download="proposed_file_name" style="color: white">
+                  Download CV
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -212,7 +223,8 @@
                 <div class="details">
                   <h5>Golang Backend Developer Trainee</h5>
                   <small class="fg-theme">MSIB Batch 6 By MIKTI</small>
-                  <p>Had a good understanding of Basic Machine Learning Algorithms to Advanced. Designed prediction models using Deep Learning (Image Classification, NLP, Time Series) in Tensorflow. Lead a team to build an Application that will predict Indonesian Food using Image Classification Algorithms and Transfer Learning</p>
+                  <p style="text-align:justify">Had a good understanding of backend development with Golang and Echo, applying clean architecture and code principles. Developing robust and scalable backend systems, collaborating on writing maintainable and understandable code. Building efficient and secure REST APIs, and currently learning third-party service integration to enhance system performance</p>
+
                 </div>
               </li>
               <li>
@@ -246,7 +258,7 @@
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
               <div class="iconic">
-                <span class="ti-announcement"></span>
+                <i class='bx bx-server'></i>
               </div>
               <h4 class="fg-theme">Backend Developer</h4>
               <p>Developing APIs with Echo/Gin, Express Js, Laravel, and SQL / No SQL</p>
@@ -255,7 +267,7 @@
           <div class="col-md-6 col-lg-4 wow fadeInUp">
             <div class="card card-body">
               <div class="iconic">
-                <span class="ti-desktop"></span>
+                <i class='bx bx-mobile-alt' ></i>
               </div>
               <h4 class="fg-theme">Mobile Developer</h4>
               <p>Developing Mobile application with Flutter and Firebase.</p>
@@ -307,12 +319,8 @@
         <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
         <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
           <button class="btn btn-theme-outline selected" data-filter="*">All</button>
-          <button class="btn btn-theme-outline" data-filter=".apps">Apps</button>
-          <button class="btn btn-theme-outline" data-filter=".template">Template</button>
-          <button class="btn btn-theme-outline" data-filter=".ios">IOS</button>
-          <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
-          <button class="btn btn-theme-outline" data-filter=".graphic">Graphic</button>
-          <button class="btn btn-theme-outline" data-filter=".wireframes">Wireframes</button>
+          <button class="btn btn-theme-outline" data-filter=".website">Website</button>
+          <button class="btn btn-theme-outline" data-filter=".api">API</button>
         </div>
 
         <div class="gridder my-3">
@@ -325,7 +333,7 @@
               </div>
             </div>
           </div>
-          <div class="grid-item template wireframes wow zoomIn">
+          <div class="grid-item website wireframes wow zoomIn">
             <div class="img-place" data-src="./assets/img/work/work-2.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
               <img src="./assets/img/work/work-2.jpg" alt="">
               <div class="img-caption">
@@ -334,7 +342,7 @@
               </div>
             </div>
           </div>
-          <div class="grid-item apps ios wow zoomIn">
+          <div class="grid-item apps api wow zoomIn">
             <div class="img-place" data-src="./assets/img/work/work-3.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
               <img src="./assets/img/work/work-3.jpg" alt="">
               <div class="img-caption">
@@ -352,7 +360,7 @@
               </div>
             </div>
           </div>
-          <div class="grid-item apps ios wow zoomIn">
+          <div class="grid-item apps api wow zoomIn">
             <div class="img-place" data-src="./assets/img/work/work-5.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>">
               <img src="./assets/img/work/work-5.jpg" alt="">
               <div class="img-caption">
@@ -386,7 +394,7 @@
         <div class="row py-5">
           <div class="col-lg-7 wow zoomIn">
             <div class="vg-maps">
-              <div id="google-maps" style="width: 100%; height: 100%;"></div>
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="820" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=Pondok+angsan+3&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.analarmclock.com"></a><br><a href="https://www.onclock.net"></a><br><style>.mapouter{position: relative;text-align: right;height:100%;width: 100%;}</style><a href="https://www.ongooglemaps.com">location map</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 100%;width: 100%}</style></div></div>
             </div>
           </div>
           <div class="col-lg-5">
@@ -429,7 +437,7 @@
               <p>Follow me</p>
               <hr class="divider">
               <ul class="list-unstyled">
-                <li><a href="#">Instagram</a></li>
+                <li><a href="https://www.instagram.com/davidafd_">Instagram</a></li>
                 <li><a href="#">Linkedin</a></li>
               </ul>
             </div>
